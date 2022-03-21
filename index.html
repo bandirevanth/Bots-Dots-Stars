@@ -1,0 +1,36 @@
+<svg id="game" viewBox="0 0 100 100" style="opacity:0">
+  <g id="grid" fill="#fff"></g>
+  <g id="bot" stroke="#fff">
+
+    <!--<path d="M5,2L5,-2"/>
+    <circle cx="5" cy="-2" r="0.7"/> -->
+    
+    <rect x="-0.5
+" y="4" width="11" height="2" rx="0.5"/>
+    <rect x="1
+" y="1" width="8" height="8" rx="2"/>
+    <circle cx="4" cy="4" r="1" />
+    <circle cx="6" cy="4" r="1" />
+    <path class="mouth" d="M3,6.8L4,6.8L6,6.8L7,6.8" fill="none" />
+  </g>
+  <g class="stars" stroke="#fff">
+    <defs>
+      <path id="star" d="M5,2L6,4L8,4.5L6.5,6L7,8L5,7L3,8L3.5,6L2,4.5L4,4z" />
+    </defs>
+    <use id="star1" href="#star"/>
+    <use id="star2" href="#star"/>
+    <use id="star3" href="#star"/>
+  </g>
+  <text fill="#fff" text-anchor="middle" x="50" y="55">LEVEL 1</text>
+</svg>
+<svg id="controls" viewBox="0 0 100 30" stroke="#fff" stroke-width="0.5">
+  <rect id="up" x="65" y="1" width="12" height="12" rx="3"/>
+  <rect id="down" x="65" y="17" width="12" height="12" rx="3"/>
+  <rect id="left" x="50" y="9" width="12" height="12" rx="3"/>
+  <rect id="right" x="80" y="9" width="12" height="12" rx="3"/>
+  <g class="markers">
+    <use href="#star" x="10" y="9"/>
+    <use href="#star" x="20" y="9"/>
+    <use href="#star" x="30" y="9"/>
+  </g>
+</svg>
